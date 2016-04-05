@@ -3,40 +3,135 @@ body {
     background-size:100%,100%;
 }
 
+.header {
+  overflow:hidden;
+
+}
+
+.logo img {
+  max-width: 100%;
+  height: auto;
+  padding-left: 10%;
+}
+
+@media (min-width: 48em) {
+  .logo {
+    float:left;
+    width: 400px;
+    margin-right: 100px;
+
+  }
+}
+
+
+
 .socialmedia img{
   width: 50px;
   height: 50px;
+  padding: 0.5em;
+
 }
 
 .socialmedia {
   display: inline-block;
-  text-align: center;
+  text-align: left;
+  float:left;50%
+  text-align: bottom;
 }
 
+.container2 {
+  text-align: center;
 
+}
+
+.footer2 {
+
+  text-align: center;
+  padding-left: 15em;
+  padding-right: 15em;
+  font-family:sans-serif; bold
+  word-spacing: 0.2em;
+  line-height: 1.5em;
+}
 
 
 
 .site-nav li {
   display: inline-block;
+  position: relative;
+  overflow: visible;
+}
+
+@media (min-width: 48em) {
+  .site-nav li {
+    margin-left: 20px;
+
+  }
 }
 
 .site-nav {
+  overflow: hidden;
   font-family: impact;
   padding: 1em;
   position: relative;
-  font-size: 2em;
+  font-size: 1.5em;
   padding-left: 5;
+  padding-right: 20%;
+  padding-top: 2.5%;
   list-style: none;
   direction: ltr;
   text-align: right;
-  float: right;
-  width: 100%;
-  background-color: black;
+  word-spacing: 1em;
+  letter-spacing: .08em;
+}
+
+.site-nav a:link,
+.site-nav a:active,
+.site-nav a:visited {
+  text-decoration: none;
+  color: #000;
+
+}
+
+.homepage .site-nav a:link,
+.homepage .site-nav a:active,
+.homepage .site-nav a:visited {
+  color: #fff;
 
 }
 
 
-.logo {
+.sub-nav {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 600%;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+  font-size: 12px;
+  padding-top: 15%;
+}
 
+
+
+
+.contact {
+  font-family: impact;
+  letter-spacing: 0.3em;
+  text-align: center;
+
+}
+
+
+
+.content {
+  padding-left: 10%;
+  padding-right: 10%;
+  height: 700px;
+  width: 1000px;
+}
+
+.nav {
+  text-align: center;
 }
